@@ -25,10 +25,10 @@ class InputValidation {
         //$inputString = trim($inputString);
         if(is_numeric($inputString)){
              $this->inputType = 'integer';
-            if($inputString < 4000 && $inputString > 0){
+            if($inputString < 4000 && $inputString > 0 && strpos($inputString,'.') === false){
                  $this->result = $romanNumerals->generate($inputString);
             } else {
-                 $this->result = "Number must be between 1 and 3999";
+                 $this->result = "Number must be whole and be between 1 and 3999";
             }
         } else {
             $this->inputType = 'roman';
