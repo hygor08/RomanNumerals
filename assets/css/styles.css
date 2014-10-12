@@ -1,0 +1,107 @@
+
+/* 
+    Author     : Adam Bush
+*/
+
+body {
+    width: 100%; 
+    min-width: 960px;
+}
+
+#formhold {
+    height: 160px;
+    display: block; 
+    position: relative;
+    padding: 10px;
+}
+
+#formhold p {
+    clear: both; 
+    margin-top: 10px; 
+    float: left; 
+    position: relative;
+    }
+
+#formhold p span {
+    padding: 10px;
+    font-size: 0.9em;
+    display: block;
+    border: 2px solid grey;
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    border-radius: 2px;
+    background-color: lightyellow;}
+
+#romanOutput {
+    width: 100%;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    position: relative;
+    height: 400px;
+    background-color: lightskyblue;
+    background-image: url('../../assets/images/colliseum.png');
+    background-size:   cover;
+    background-repeat: no-repeat;
+    background-position: center center;  
+    clear: both;
+    float: left;
+}
+
+#integerOutput {
+    width: 100%;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    position: relative;
+    height: 400px;
+    background-color: blueviolet;
+    background-image: url('../../assets/images/sanfran.png');
+    background-size:   cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    clear: both;
+    float: left;
+}
+
+.resultText {
+    margin-top: 15%;
+    text-align: center;
+    position: relative;
+}
+
+.resultText span {
+    font-size: 1.8em;
+    border: 2px solid grey;
+    padding: 15px; 
+    -webkit-border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    border-radius: 4px;
+    background-color: #fff;
+}
+label {
+    float: left; 
+    clear: both; 
+    font-size: 1.4em;
+    margin-bottom: 6px;
+}
+input#entryItem {    
+    float: left; 
+    clear: both; 
+    font-size: 1.4em;
+}
+input#submit {
+    float:left;
+    border-color: darkblue;
+    -webkit-border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    border-radius: 4px;
+    background-color: skyblue; 
+    height: 35px;
+    width: 120px;
+    color: #fff;
+    margin-left: 6px;
+}
+
+#hint {
+    float: left;
+    margin: 6px 0px 0px 10px ;
+}
